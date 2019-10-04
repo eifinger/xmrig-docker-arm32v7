@@ -4,5 +4,5 @@ Dockerfile for running the latest version of xmrig on a arm32v7 architecture lik
 ## Usage
 
 ```bash
-sudo docker run eifinger/xmrig-docker-odroidxu4 -o pool.supportxmr.com:5555 -u 47GZz2vhkSi1HMNuLDqA1sH3byTuq7eTFdWYtKYhv6zQA3c78Zo7uNJ8Xw99y984CkKvJP3QMmEkp2KZRWBrA6p4CnGUecx -p worker -k --coin=monero
+sudo docker run eifinger/xmrig-docker-arm32v7:latest -o pool.supportxmr.com:5555 -u 47GZz2vhkSi1HMNuLDqA1sH3byTuq7eTFdWYtKYhv6zQA3c78Zo7uNJ8Xw99y984CkKvJP3QMmEkp2KZRWBrA6p4CnGUecx -p worker -k --coin=monero
 ````
