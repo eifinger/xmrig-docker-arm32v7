@@ -13,7 +13,7 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag xmrig-docker-arm32v7:$(date +%s) --tag xmrig-docker-arm32v7:latest
     - name: Publish to Registry
-      uses: elgohr/Publish-Docker-Github-Action@master
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: myDocker/repository
         username: ${{ secrets.DOCKER_USERNAME }}
